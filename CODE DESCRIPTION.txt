@@ -1,0 +1,16 @@
+BBS.bat                Shell security module batch script
+inspector.py           important standalone script to update logbook , runs in background
+surveillance.py        important standalone script extract and feed data to ML, runs in background
+privileges.py          module to reset privileges , used in batch file
+evidence_extractor.py  module to extract data , used in main script
+countdown.py           gui timer( two versions )
+checksum_manual.py     gets checksum value of all the tables manually, standalone script
+encryptor.py           encryption funtion , used in main script
+extract_sql.py         module to export schema , used in batch file
+extractor_combined.py  dump all the data , schema, loggs into a single file
+extractor_combined.py  dump all the data , schema, loggs into organised folder
+hashing.py             take the hash of specified files , modified veraion used in main script
+hash_storage.py        stores hash of specific files in table, used in main script
+text_shredder.py       used at various places to filter logs
+trainer2.py            used to generate a CSV file used to train AI model from any given log data
+trainer3.py            used to generate a CSV file used to train AI model from any given history data
